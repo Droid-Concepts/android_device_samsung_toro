@@ -6,13 +6,13 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/droid_concepts/config/common_full_phone.mk)
+$(call inherit-product, vendor/Droid_Concepts/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/toro/full_toro.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/droid_concepts/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/Droid_Concepts/config/nfc_enhanced.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := toro
